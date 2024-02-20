@@ -6,7 +6,8 @@
         {
             //Console.WriteLine(FirstTask(10,20));
             //Console.WriteLine(ThirdTask(5,20));
-            Console.WriteLine(FourthTask(15));
+            //Console.WriteLine(FourthTask(15));
+            Console.WriteLine(FifthTask(16));
 
         }
 
@@ -55,6 +56,16 @@
             }
             return sade ? "sadedir" : "murekkebdir";
 
+        }
+
+        static bool FifthTask(int n)
+        {
+            int quvvet = 1;
+            while (n>quvvet)
+            {
+                quvvet *= 2;
+            }
+            return n == quvvet;
         }
     }
 }
