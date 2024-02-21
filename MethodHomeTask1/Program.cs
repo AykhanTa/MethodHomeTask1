@@ -4,18 +4,18 @@
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine(FirstTask(10,20));
-            Console.WriteLine(SecondTask(2, 3, 4, 5, 6, 7));
+            //Console.WriteLine(FirstTask(120,20));
+            //Console.WriteLine(SecondTask(2, 3, 4, 5, 6, 7));
             //Console.WriteLine(ThirdTask(5,20));
             //Console.WriteLine(FourthTask(15));
-            //Console.WriteLine(FifthTask(16));
+             Console.WriteLine(FifthTask(1));
 
 
         }
 
         static int FirstTask(int a,int b)
         {
-            return a / 2;
+            return a / b;
         }
 
         static int SecondTask(params int[] arr)
